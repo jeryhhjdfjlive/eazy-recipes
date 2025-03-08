@@ -14,6 +14,7 @@ export interface Recipe {
   content?: string;
   ingredients?: string[];
   instructions?: string[];
+  galleryImages?: string[]; // New property for design gallery
 }
 
 interface RecipeCardProps {

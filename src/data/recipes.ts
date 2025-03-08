@@ -1,4 +1,3 @@
-
 import { Recipe } from "@/components/RecipeCard";
 
 export const recipes: Recipe[] = [
@@ -10,6 +9,11 @@ export const recipes: Recipe[] = [
     prepTime: "45 mins",
     difficulty: "Easy",
     content: "These classic vanilla cupcakes are a staple in any baker's repertoire. The secret to their light and fluffy texture is to not overmix the batter and to use room temperature ingredients. The buttercream frosting is silky smooth with just the right amount of sweetness.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1519869325930-281384150729?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "1 1/2 cups all-purpose flour",
       "1 1/2 teaspoons baking powder",
@@ -39,6 +43,11 @@ export const recipes: Recipe[] = [
     prepTime: "30 mins",
     difficulty: "Easy",
     content: "The perfect chocolate chunk cookie should be crispy on the outside, chewy in the middle, and loaded with melty chocolate chunks. This recipe delivers exactly that! The secret is using brown sugar for chewiness, chilling the dough before baking, and using high-quality chocolate chunks instead of chips.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743089695-4b816a340f0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1618923050939-c669a3602b4d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "2 1/4 cups all-purpose flour",
       "1 teaspoon baking soda",
@@ -70,6 +79,11 @@ export const recipes: Recipe[] = [
     prepTime: "35 mins",
     difficulty: "Medium",
     content: "These lemon blueberry scones are bright, buttery, and bursting with flavor. The secret to their perfect texture is keeping the butter cold and not overworking the dough. Fresh blueberries work best, but frozen will do in a pinch - just don't thaw them before using!",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1523942839364-61d969c67316?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578847929792-d65b7ccdcbfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "2 cups all-purpose flour",
       "1/3 cup granulated sugar",
@@ -103,9 +117,14 @@ export const recipes: Recipe[] = [
     prepTime: "3 hours",
     difficulty: "Hard",
     content: "This cinnamon swirl bread fills your home with the most amazing aroma as it bakes. It's perfect toasted with a bit of butter for breakfast, or use it to make the most incredible French toast you've ever tasted. The bread itself is soft and tender, while the cinnamon sugar swirl adds sweetness and spice.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "3 1/2 cups all-purpose flour",
-      "1/4 cup granulated sugar",
+      "1/4 cup granulated sugar, plus more for sprinkling",
       "2 1/4 teaspoons active dry yeast",
       "1 teaspoon salt",
       "1 cup whole milk, warmed",
@@ -124,8 +143,8 @@ export const recipes: Recipe[] = [
       "Punch down dough and roll into a rectangle (approximately 9x18 inches).",
       "Mix cinnamon and sugar. Spread softened butter over dough and sprinkle with cinnamon-sugar mixture.",
       "Starting from short end, roll up tightly. Pinch seams to seal and place in greased 9x5 inch loaf pan.",
-      "Cover and let rise until doubled, about 30-45 minutes.",
-      "Bake at 350°F (175°C) for 40-45 minutes until golden brown.",
+      "Cover and let rise until puffy, about 2 hours.",
+      "Brush again with egg wash, sprinkle with sliced almonds, and bake at 350°F (175°C) for 40-45 minutes until golden brown.",
       "Cool in pan for 10 minutes, then remove to wire rack to cool completely before slicing."
     ]
   },
@@ -137,6 +156,11 @@ export const recipes: Recipe[] = [
     prepTime: "40 mins",
     difficulty: "Medium",
     content: "This classic strawberry shortcake features tender, flaky biscuits, juicy macerated strawberries, and clouds of freshly whipped cream. It's the perfect summer dessert and a wonderful way to showcase fresh, in-season berries. The key to perfect shortcakes is to handle the dough as little as possible to keep them light and tender.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "2 cups all-purpose flour",
       "1/4 cup granulated sugar, plus more for sprinkling",
@@ -174,6 +198,11 @@ export const recipes: Recipe[] = [
     prepTime: "2 days",
     difficulty: "Expert",
     content: "These almond croissants are a labor of love but absolutely worth the effort. The combination of buttery, flaky layers with rich almond cream is utterly divine. While traditionally made with day-old croissants in French bakeries, this recipe allows you to create the entire experience from scratch. Patience is key to achieving those perfect layers!",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1586444248888-f9589e88ac0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "4 cups all-purpose flour",
       "1/3 cup granulated sugar",
@@ -214,6 +243,11 @@ export const recipes: Recipe[] = [
     prepTime: "30 mins",
     difficulty: "Medium",
     content: "Chocolate lava cakes are the perfect dessert for chocolate lovers and impressive enough for special occasions despite being surprisingly easy to make. The key is to not overbake them so they maintain that gorgeous molten center. Serve warm with a scoop of vanilla ice cream for the ultimate indulgence.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1511911063855-2bf39afa5b2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1511911063855-2bf39afa5b2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1511911063855-2bf39afa5b2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "6 ounces high-quality semi-sweet chocolate, chopped",
       "1/2 cup unsalted butter",
@@ -245,6 +279,11 @@ export const recipes: Recipe[] = [
     prepTime: "2 hours",
     difficulty: "Hard",
     content: "There's nothing more comforting than a slice of homemade apple pie! This recipe features a buttery, flaky crust and a perfectly spiced apple filling that's not too sweet. The secret is using a mix of tart and sweet apples for the best flavor and texture. Don't skip the step of chilling the dough - it's crucial for achieving that perfect flaky crust!",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1535920527002-b35e96722969?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "2 1/2 cups all-purpose flour",
       "1 teaspoon salt",
@@ -283,6 +322,12 @@ export const recipes: Recipe[] = [
     prepTime: "3 hours",
     difficulty: "Expert",
     content: "Macarons may seem intimidating, but with patience and precision, you can create these elegant French confections at home. These raspberry macarons feature light almond shells with a hint of pink coloring and a vibrant raspberry buttercream filling. The key to perfect macarons is in the macaronage (folding) technique and allowing the shells to develop a skin before baking.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1586444248888-f9589e88ac0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578847929792-d65b7ccdcbfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "1 3/4 cups powdered sugar",
       "1 cup almond flour, finely ground",
@@ -319,6 +364,12 @@ export const recipes: Recipe[] = [
     prepTime: "24 hours",
     difficulty: "Expert",
     content: "Sourdough bread is as much art as it is science. This recipe uses a mature sourdough starter to create a loaf with exceptional flavor, a crackling crust, and that distinctive open, chewy crumb. While it takes time, most of it is hands-off as the dough slowly ferments. The process is deeply satisfying, and the result is a bread that's leagues beyond anything you can buy at a supermarket.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1586444248888-f9589e88ac0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578847929792-d65b7ccdcbfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
     ingredients: [
       "150g mature sourdough starter (100% hydration)",
       "300g water, at room temperature",

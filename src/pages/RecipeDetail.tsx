@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import RecipeGallery from '@/components/RecipeGallery';
 import { recipes } from '@/data/recipes';
 import { Clock, Utensils, ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -63,6 +64,16 @@ const RecipeDetail = () => {
             </div>
             
             <p className="text-gray-700 mb-8 leading-relaxed">{recipe.content}</p>
+            
+            {/* Recipe Gallery */}
+            {recipe.galleryImages && recipe.galleryImages.length > 0 && (
+              <div className="mb-8">
+                <RecipeGallery 
+                  images={recipe.galleryImages} 
+                  title={recipe.title}
+                />
+              </div>
+            )}
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
