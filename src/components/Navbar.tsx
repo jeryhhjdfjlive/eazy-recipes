@@ -1,15 +1,14 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Cake } from 'lucide-react';
 
 const Navbar = () => {
   return (
     <nav className="bg-white bg-opacity-90 backdrop-blur-sm py-4 px-6 border-b shadow-sm sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
-          <Cake className="h-8 w-8 text-primary" />
-          <span className="text-2xl font-bold text-primary">Bake-O-Confetti</span>
+          <span role="img" aria-label="chef" className="text-2xl">👨‍🍳</span>
+          <span className="text-2xl font-bold text-primary">eazyrecipes</span>
         </Link>
         
         <div className="flex gap-6">

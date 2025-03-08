@@ -4,7 +4,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import RecipeCard from '@/components/RecipeCard';
 import { recipes } from '@/data/recipes';
-import { Cake } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -13,13 +12,13 @@ const Index = () => {
       
       <main className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Bake-O-Confetti</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">eazyrecipes</h1>
           <div className="flex justify-center mb-4">
-            <Cake className="h-12 w-12 text-primary animate-float" />
+            <span role="img" aria-label="chef" className="text-5xl animate-float">👨‍🍳</span>
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Welcome to our colorful baking blog! Discover delicious recipes that bring joy to your kitchen,
-            from simple treats to impressive showstoppers.
+            Welcome to our simple cooking blog! Discover delicious recipes that are easy to make,
+            from quick meals to impressive dishes anyone can cook.
           </p>
         </div>
         

@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Cake, Heart, Utensils, Clock } from 'lucide-react';
+import { Heart, Utensils, Clock } from 'lucide-react';
 
 const About = () => {
   return (
@@ -14,12 +14,12 @@ const About = () => {
           <div className="p-8">
             <div className="text-center mb-8">
               <div className="flex justify-center mb-4">
-                <Cake className="h-16 w-16 text-primary" />
+                <span role="img" aria-label="chef" className="text-5xl">👨‍🍳</span>
               </div>
-              <h1 className="text-4xl font-bold text-gray-800 mb-2">About Bake-O-Confetti</h1>
+              <h1 className="text-4xl font-bold text-gray-800 mb-2">About eazyrecipes</h1>
               <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
               <p className="text-gray-600 leading-relaxed">
-                A colorful corner of the internet dedicated to the joy of baking.
+                Making cooking simple and accessible for everyone.
               </p>
             </div>
             
@@ -27,14 +27,15 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Story</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Bake-O-Confetti was born from a simple love of creating sweet treats and sharing them with others. 
-                  What started as a hobby quickly turned into a passion for experimenting with flavors, textures, 
-                  and techniques. We believe that baking should be fun, approachable, and most importantly, delicious!
+                  eazyrecipes was born from a simple desire to make cooking approachable for everyone. 
+                  What started as sharing simple recipes with friends quickly turned into a passion for creating 
+                  easy-to-follow instructions that anyone can use. We believe that cooking should be fun, 
+                  straightforward, and most importantly, delicious!
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
                   Every recipe on our blog has been tested multiple times to ensure success in your kitchen. 
                   We provide detailed instructions, helpful tips, and the occasional story to make your 
-                  baking experience as enjoyable as possible.
+                  cooking experience as enjoyable as possible.
                 </p>
               </div>
               
@@ -71,13 +72,13 @@ const About = () => {
               </div>
               
               <div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">Join Our Baking Community</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">Join Our Cooking Community</h2>
                 <p className="text-gray-700 leading-relaxed">
                   We love seeing what you create with our recipes! Feel free to connect with us on social media 
-                  and share your baking triumphs (and even the occasional mishap - we've all been there!).
+                  and share your cooking triumphs (and even the occasional mishap - we've all been there!).
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
-                  Thank you for stopping by Bake-O-Confetti. Happy baking!
+                  Thank you for stopping by eazyrecipes. Happy cooking!
                 </p>
               </div>
             </div>
