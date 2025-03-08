@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { Heart, Instagram, Twitter, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
@@ -12,7 +13,25 @@ const Footer = () => {
             <p className="text-gray-600 text-sm">Simple cooking for everyone since 2024</p>
           </div>
           
-          <div className="flex items-center gap-1 text-gray-600">
+          <div className="flex gap-3 mb-4 md:mb-0 md:order-3">
+            <Button variant="ghost" size="icon" aria-label="Instagram" className="rounded-full hover:bg-baking-pink">
+              <Instagram className="h-5 w-5 text-gray-600" />
+            </Button>
+            <Button variant="ghost" size="icon" aria-label="Twitter" className="rounded-full hover:bg-baking-blue">
+              <Twitter className="h-5 w-5 text-gray-600" />
+            </Button>
+            <Button variant="ghost" size="icon" aria-label="Facebook" className="rounded-full hover:bg-baking-yellow">
+              <Facebook className="h-5 w-5 text-gray-600" />
+            </Button>
+            <Button variant="ghost" size="icon" aria-label="LinkedIn" className="rounded-full hover:bg-baking-purple">
+              <Linkedin className="h-5 w-5 text-gray-600" />
+            </Button>
+            <Button variant="ghost" size="icon" aria-label="YouTube" className="rounded-full hover:bg-baking-orange">
+              <Youtube className="h-5 w-5 text-gray-600" />
+            </Button>
+          </div>
+          
+          <div className="flex items-center gap-1 text-gray-600 md:order-2">
             <span>Made with</span>
             <Heart className="h-4 w-4 text-primary fill-primary" />
             <span>and good ingredients</span>
