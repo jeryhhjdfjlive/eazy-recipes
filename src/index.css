@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,16 +14,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 340 82% 52%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 60 90% 90%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 267 83% 93%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,22 +33,15 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +90,45 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-foreground;
   }
+}
+
+.confetti-bg {
+  background: white;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.confetti-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+  background-image: 
+    radial-gradient(#FFDEE2 2px, transparent 2px),
+    radial-gradient(#D3E4FD 2px, transparent 2px),
+    radial-gradient(#FEF7CD 2px, transparent 2px),
+    radial-gradient(#FEC6A1 2px, transparent 2px),
+    radial-gradient(#E5DEFF 2px, transparent 2px),
+    radial-gradient(#F2FCE2 2px, transparent 2px);
+  background-size: 
+    50px 50px,
+    70px 70px,
+    100px 100px,
+    120px 120px,
+    150px 150px,
+    200px 200px;
+  background-position: 
+    0 0,
+    20px 30px,
+    50px 60px,
+    80px 90px,
+    110px 120px,
+    140px 150px;
 }
