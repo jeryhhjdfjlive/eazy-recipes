@@ -198,8 +198,8 @@ export const recipes: Recipe[] = [
     content: "These almond croissants are a labor of love but absolutely worth the effort. The combination of buttery, flaky layers with rich almond cream is utterly divine. While traditionally made with day-old croissants in French bakeries, this recipe allows you to create the entire experience from scratch. Patience is key to achieving those perfect layers!",
     galleryImages: [
       "https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1586444248888-f9589e88ac0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1649542181703-33cc4f373b28?q=80&w=1000",
+      "https://plus.unsplash.com/premium_photo-1670333242822-40e564cc3100?q=80&w=1000"
     ],
     ingredients: [
       "4 cups all-purpose flour",
@@ -323,8 +323,8 @@ export const recipes: Recipe[] = [
     galleryImages: [
       "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1586444248888-f9589e88ac0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1578847929792-d65b7ccdcbfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1739190088256-8880fbd93bd4?q=80&w=1000",
+      "https://images.unsplash.com/photo-1736730673809-8b40a7ecfd13?q=80&w=1000"
     ],
     ingredients: [
       "1 3/4 cups powdered sugar",
@@ -358,15 +358,14 @@ export const recipes: Recipe[] = [
     id: 10,
     title: "Sourdough Bread",
     description: "Artisan sourdough bread with a crispy crust and chewy, tangy interior.",
-    image: "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1591458736923-c06a260e3412?q=80&w=1000",
     prepTime: "24 hours",
     difficulty: "Expert",
     content: "Sourdough bread is as much art as it is science. This recipe uses a mature sourdough starter to create a loaf with exceptional flavor, a crackling crust, and that distinctive open, chewy crumb. While it takes time, most of it is hands-off as the dough slowly ferments. The process is deeply satisfying, and the result is a bread that's leagues beyond anything you can buy at a supermarket.",
     galleryImages: [
       "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1586444248888-f9589e88ac0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1578847929792-d65b7ccdcbfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1540916329799-e95bee36635f?q=80&w=1000"
     ],
     ingredients: [
       "150g mature sourdough starter (100% hydration)",
