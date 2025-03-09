@@ -580,14 +580,14 @@ export const recipes: Recipe[] = [
     id: 16,
     title: "Blueberry Muffins",
     description: "Soft and moist muffins bursting with fresh blueberries.",
-    image: "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2010/08/perfect-blueberry-muffins-scaled.jpg?fit=1200%2C800&ssl=1",
     prepTime: "30 mins",
     difficulty: "Easy",
     content: "These blueberry muffins are perfect for breakfast or a snack. Packed with fresh blueberries and a hint of lemon zest, they're light, moist, and absolutely delightful.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1572441710263-0923e1b6c4b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2010/08/perfect-blueberry-muffins-scaled.jpg?fit=1200%2C800&ssl=1",
+      "https://kickassbaker.com/wp-content/uploads/2023/05/jumbo-blueberry-muffins-with-sour-cream-1x1-1.jpg",
+      "https://butternutbakeryblog.com/wp-content/uploads/2022/02/blueberry-muffins.jpg"
     ],
     ingredients: [
       "1 1/2 cups all-purpose flour",
