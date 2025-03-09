@@ -394,40 +394,189 @@ export const recipes: Recipe[] = [
     ]
   },
   {
-  "id": 11,
-  "title": "Red Velvet Cake",
-  "description": "Layered crimson cake with cream cheese frosting and crunchy pecans.",
-  "image": "https://t3.ftcdn.net/jpg/02/64/84/68/360_F_264846889_3FTwwhQItDUy95Wdeaf8Qg4YLiiLNvrG.jpg",
-  "prepTime": "1.5 hours",
-  "difficulty": "Medium",
-  "content": "This iconic Southern cake gets its signature red color from cocoa powder reacting with acidic ingredients. The smooth cream cheese frosting provides the perfect tangy contrast to the mildly chocolatey layers.",
-  "galleryImages": [
-    "https://t3.ftcdn.net/jpg/02/64/84/68/360_F_264846889_3FTwwhQItDUy95Wdeaf8Qg4YLiiLNvrG.jpg",
-    "https://plus.unsplash.com/premium_photo-1713920189815-876dbdf5f56e?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1543287920-26349b5b1376?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  ],
-  "ingredients": [
-    "2 1/2 cups cake flour",
-    "1 1/2 cups sugar",
-    "1 teaspoon baking soda",
-    "1 teaspoon cocoa powder",
-    "1 teaspoon salt",
-    "2 large eggs, at room temperature",
-    "1 1/2 cups vegetable oil",
-    "1 cup buttermilk, at room temperature",
-    "2 tablespoons red food coloring",
-    "1 teaspoon white vinegar",
-    "1 teaspoon vanilla extract"
-  ],
-  "instructions": [
-    "Preheat your oven to 350°F (175°C). Grease and flour three 9-inch cake pans, then line the bottoms with parchment paper to ensure easy release.",
-    "In a large bowl, sift together the cake flour, sugar, cocoa powder, baking soda, and salt. This ensures even distribution and a smoother batter.",
-    "In a separate bowl, whisk together the eggs, vegetable oil, buttermilk, red food coloring, vanilla extract, and white vinegar until well combined.",
-    "Gradually add the dry ingredients to the wet ingredients, mixing on medium speed until the batter is smooth and fully incorporated. Be careful not to overmix, as this can lead to a denser cake.",
-    "Evenly distribute the batter among the three prepared cake pans, smoothing the tops to ensure even baking.",
-    "Place the pans in the preheated oven and bake for 25-30 minutes, or until a toothpick inserted into the center comes out clean.",
-    "Once baked, remove the cakes from the oven and let them cool in the pans for about 10 minutes. Then, transfer them to wire racks to cool completely before applying the cream cheese frosting."
-  ]
-}
-
+    id: 11,
+    title: "Red Velvet Cake",
+    description: "Layered crimson cake with cream cheese frosting and crunchy pecans.",
+    image: "https://t3.ftcdn.net/jpg/02/64/84/68/360_F_264846889_3FTwwhQItDUy95Wdeaf8Qg4YLiiLNvrG.jpg",
+    prepTime: "1.5 hours",
+    difficulty: "Medium",
+    content: "This iconic Southern cake gets its signature red color from cocoa powder reacting with acidic ingredients. The smooth cream cheese frosting provides the perfect tangy contrast to the mildly chocolatey layers.",
+    galleryImages: [
+      "https://t3.ftcdn.net/jpg/02/64/84/68/360_F_264846889_3FTwwhQItDUy95Wdeaf8Qg4YLiiLNvrG.jpg",
+      "https://images.unsplash.com/photo-1543287920-26349b5b1376?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    ingredients: [
+      "2 1/2 cups cake flour",
+      "1 1/2 cups sugar",
+      "1 teaspoon baking soda",
+      "1 teaspoon cocoa powder",
+      "1 teaspoon salt",
+      "2 large eggs, at room temperature",
+      "1 1/2 cups vegetable oil",
+      "1 cup buttermilk, at room temperature",
+      "2 tablespoons red food coloring",
+      "1 teaspoon white vinegar",
+      "1 teaspoon vanilla extract"
+    ],
+    instructions: [
+      "Preheat your oven to 350°F (175°C). Grease and flour three 9-inch cake pans, then line the bottoms with parchment paper to ensure easy release.",
+      "In a large bowl, sift together the cake flour, sugar, cocoa powder, baking soda, and salt. This ensures even distribution and a smoother batter.",
+      "In a separate bowl, whisk together the eggs, vegetable oil, buttermilk, red food coloring, vanilla extract, and white vinegar until well combined.",
+      "Gradually add the dry ingredients to the wet ingredients, mixing on medium speed until the batter is smooth and fully incorporated. Be careful not to overmix, as this can lead to a denser cake.",
+      "Evenly distribute the batter among the three prepared cake pans, smoothing the tops to ensure even baking.",
+      "Place the pans in the preheated oven and bake for 25-30 minutes, or until a toothpick inserted into the center comes out clean.",
+      "Once baked, remove the cakes from the oven and let them cool in the pans for about 10 minutes. Then, transfer them to wire racks to cool completely before applying the cream cheese frosting."
+    ]
+  },
+  // New Recipes Added:
+  {
+    id: 12,
+    title: "Classic Carrot Cake",
+    description: "Moist and spiced carrot cake layered with rich cream cheese frosting.",
+    image: "https://images.unsplash.com/photo-1611095564983-13cf3a7e5b86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "1.5 hours",
+    difficulty: "Medium",
+    content: "This classic carrot cake is full of warm spices and tender carrots, complemented by a tangy cream cheese frosting. It's perfect for celebrations or a comforting dessert.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1611095564983-13cf3a7e5b86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1611095558982-213cf3a7e5b87?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1611095561234-13cf3a7e5b88?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "2 cups all-purpose flour",
+      "2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1 teaspoon ground cinnamon",
+      "1/2 teaspoon ground nutmeg",
+      "1/4 teaspoon ground ginger",
+      "3 large eggs",
+      "1 1/2 cups granulated sugar",
+      "1 cup vegetable oil",
+      "2 cups grated carrots",
+      "1 cup crushed walnuts (optional)",
+      "For the frosting:",
+      "8 oz cream cheese, softened",
+      "1/4 cup unsalted butter, softened",
+      "2 cups powdered sugar",
+      "1 teaspoon vanilla extract"
+    ],
+    instructions: [
+      "Preheat oven to 350°F (175°C). Grease and flour a 9-inch round cake pan.",
+      "In a bowl, sift together flour, baking powder, salt, cinnamon, nutmeg, and ginger.",
+      "In a separate bowl, beat eggs and sugar until light and fluffy. Slowly add the oil.",
+      "Stir in grated carrots and walnuts (if using). Gradually mix in the dry ingredients.",
+      "Pour batter into the prepared pan and bake for 35-40 minutes, or until a toothpick inserted in the center comes out clean.",
+      "While cake cools, prepare the frosting: Beat cream cheese and butter until smooth, then gradually add powdered sugar and vanilla extract.",
+      "Once the cake is completely cool, frost evenly and serve."
+    ]
+  },
+  {
+    id: 13,
+    title: "Homestyle Banana Bread",
+    description: "Moist, flavorful banana bread perfect for a quick snack or breakfast treat.",
+    image: "https://images.unsplash.com/photo-1604147706283-0b4d78f2d5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "1 hour",
+    difficulty: "Easy",
+    content: "A comforting and easy-to-make banana bread bursting with ripe bananas and a hint of cinnamon. It’s a great way to use overripe bananas for a delicious treat any time of day.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1604147706283-0b4d78f2d5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "2-3 ripe bananas, mashed",
+      "1/3 cup melted butter",
+      "3/4 cup sugar",
+      "1 large egg, beaten",
+      "1 teaspoon vanilla extract",
+      "1 teaspoon baking soda",
+      "Pinch of salt",
+      "1 1/2 cups all-purpose flour"
+    ],
+    instructions: [
+      "Preheat your oven to 350°F (175°C) and grease a 4x8 inch loaf pan.",
+      "In a large mixing bowl, mash the ripe bananas with a fork until smooth.",
+      "Stir the melted butter into the mashed bananas.",
+      "Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract.",
+      "Slowly blend in the flour until just combined.",
+      "Pour the batter into the prepared loaf pan.",
+      "Bake for 60-65 minutes, or until a tester inserted into the center comes out clean.",
+      "Remove from oven and let cool in the pan for 10 minutes, then transfer to a wire rack to cool completely."
+    ]
+  },
+  {
+    id: 14,
+    title: "Southern Peach Cobbler",
+    description: "Sweet and juicy peaches topped with a tender, biscuit-like crust.",
+    image: "https://images.unsplash.com/photo-1598801113880-6f4e619b144f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "1 hour",
+    difficulty: "Medium",
+    content: "This southern peach cobbler features fresh peaches in a spiced syrup, topped with a light, buttery crust. Serve warm with a scoop of vanilla ice cream for extra indulgence.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1598801113880-6f4e619b144f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1565895405132-2b01eb1b02c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1571182622512-86860e9b8b8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "6-8 fresh peaches, peeled, pitted, and sliced",
+      "1/2 cup granulated sugar",
+      "1/4 cup brown sugar",
+      "1 teaspoon ground cinnamon",
+      "1/4 teaspoon ground nutmeg",
+      "1 tablespoon lemon juice",
+      "2 tablespoons all-purpose flour",
+      "For the topping:",
+      "1 cup all-purpose flour",
+      "1/4 cup granulated sugar",
+      "1 1/2 teaspoons baking powder",
+      "1/4 teaspoon salt",
+      "1/2 cup milk",
+      "1/4 cup unsalted butter, melted"
+    ],
+    instructions: [
+      "Preheat your oven to 375°F (190°C).",
+      "In a large bowl, combine peaches, granulated sugar, brown sugar, cinnamon, nutmeg, lemon juice, and flour. Toss to coat the peaches evenly.",
+      "Transfer the peach mixture to a greased 9x9 inch baking dish.",
+      "In a separate bowl, whisk together topping ingredients until smooth.",
+      "Drop spoonfuls of the topping evenly over the peaches.",
+      "Bake for 35-40 minutes, or until the topping is golden and the peach filling is bubbly.",
+      "Allow to cool slightly before serving with ice cream, if desired."
+    ]
+  },
+  {
+    id: 15,
+    title: "Nutella Stuffed Brownies",
+    description: "Rich, fudgy brownies with a gooey Nutella center that will delight any chocolate lover.",
+    image: "https://images.unsplash.com/photo-1604908177527-17d5fcd27cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "45 mins",
+    difficulty: "Medium",
+    content: "These indulgent Nutella stuffed brownies combine a dense, chocolatey base with a surprise molten center of Nutella. Perfect for those who crave an extra decadent chocolate treat.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1604908177527-17d5fcd27cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1587054117969-1e7d2a9b3f03?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1592928303521-1c5f44a6bff9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "1/2 cup unsalted butter",
+      "8 ounces semi-sweet chocolate, chopped",
+      "1 cup granulated sugar",
+      "1/2 cup brown sugar",
+      "3 large eggs",
+      "1 teaspoon vanilla extract",
+      "3/4 cup all-purpose flour",
+      "1/4 cup cocoa powder",
+      "1/2 teaspoon salt",
+      "Nutella (about 1/2 cup)"
+    ],
+    instructions: [
+      "Preheat oven to 350°F (175°C). Grease a 9x9 inch baking pan and line with parchment paper.",
+      "In a saucepan, melt butter and chocolate over low heat, stirring until smooth. Let cool slightly.",
+      "In a large bowl, whisk together sugars, eggs, and vanilla extract until combined. Stir in the melted chocolate mixture.",
+      "Fold in flour, cocoa powder, and salt until just incorporated.",
+      "Pour half of the batter into the pan. Drop spoonfuls of Nutella evenly over the batter, then top with the remaining batter.",
+      "Swirl gently with a knife to create a marbled effect.",
+      "Bake for 25-30 minutes until a toothpick inserted into the center comes out with moist crumbs.",
+      "Let cool completely before cutting into squares."
+    ]
+  }
 ];
