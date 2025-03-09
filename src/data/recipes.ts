@@ -275,14 +275,14 @@ export const recipes: Recipe[] = [
     id: 8,
     title: "Apple Pie",
     description: "Classic American apple pie with a flaky buttery crust and spiced apple filling.",
-    image: "https://images.unsplash.com/photo-1535920527002-b35e96722969?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1562007908-69cf18a6da04?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     prepTime: "2 hours",
     difficulty: "Hard",
     content: "There's nothing more comforting than a slice of homemade apple pie! This recipe features a buttery, flaky crust and a perfectly spiced apple filling that's not too sweet. The secret is using a mix of tart and sweet apples for the best flavor and texture. Don't skip the step of chilling the dough - it's crucial for achieving that perfect flaky crust!",
     galleryImages: [
-      "https://images.unsplash.com/photo-1535920527002-b35e96722969?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1621743478914-cc8a86d7e7b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1545396635-011a9a6a5650?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1562007908-69cf18a6da04?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     ingredients: [
       "2 1/2 cups all-purpose flour",
@@ -577,6 +577,364 @@ export const recipes: Recipe[] = [
       "Swirl gently with a knife to create a marbled effect.",
       "Bake for 25-30 minutes until a toothpick inserted into the center comes out with moist crumbs.",
       "Let cool completely before cutting into squares."
+    ]
+  },
+  {
+    id: 16,
+    title: "Blueberry Muffins",
+    description: "Soft and moist muffins bursting with fresh blueberries.",
+    image: "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "30 mins",
+    difficulty: "Easy",
+    content: "These blueberry muffins are perfect for breakfast or a snack. Packed with fresh blueberries and a hint of lemon zest, they're light, moist, and absolutely delightful.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1572441710263-0923e1b6c4b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "1 1/2 cups all-purpose flour",
+      "3/4 cup granulated sugar",
+      "1/2 tsp salt",
+      "2 tsp baking powder",
+      "1/3 cup vegetable oil",
+      "1 large egg",
+      "1/3 - 1/2 cup milk",
+      "1 tsp vanilla extract",
+      "1 cup fresh blueberries",
+      "Zest of 1 lemon"
+    ],
+    instructions: [
+      "Preheat oven to 375°F (190°C) and line a muffin tin with paper liners.",
+      "In a bowl, whisk together flour, sugar, salt, and baking powder.",
+      "In another bowl, mix vegetable oil, egg, milk, and vanilla extract until smooth.",
+      "Gently fold the wet ingredients into the dry ingredients until just combined.",
+      "Carefully fold in blueberries and lemon zest.",
+      "Spoon the batter into the muffin cups, filling each about 2/3 full.",
+      "Bake for 20-25 minutes or until a toothpick inserted in the center comes out clean.",
+      "Allow muffins to cool in the tin for 5 minutes before transferring to a wire rack."
+    ]
+  },
+  {
+    id: 17,
+    title: "Pumpkin Spice Cookies",
+    description: "Soft and chewy cookies with the warm flavors of pumpkin and spices.",
+    image: "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "35 mins",
+    difficulty: "Medium",
+    content: "These pumpkin spice cookies combine the classic flavors of fall into a soft, chewy treat. Perfect for autumn gatherings or a cozy snack.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1600436757349-c5b9cb3b4d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1571091718767-8d2b5d04c1c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "1 1/2 cups all-purpose flour",
+      "1/2 tsp baking soda",
+      "1/2 tsp salt",
+      "1 tsp pumpkin pie spice",
+      "1/2 cup unsalted butter, softened",
+      "1/2 cup granulated sugar",
+      "1/2 cup brown sugar",
+      "1 cup pumpkin puree",
+      "1 large egg",
+      "1 tsp vanilla extract"
+    ],
+    instructions: [
+      "Preheat oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+      "In a bowl, whisk together flour, baking soda, salt, and pumpkin pie spice.",
+      "In a separate bowl, cream the butter with both sugars until light and fluffy.",
+      "Beat in the pumpkin puree, egg, and vanilla extract until well combined.",
+      "Gradually mix in the dry ingredients until just incorporated.",
+      "Drop rounded tablespoons of dough onto the prepared baking sheet.",
+      "Bake for 10-12 minutes until the edges are lightly golden.",
+      "Cool on the baking sheet for 5 minutes before transferring to a wire rack."
+    ]
+  },
+  {
+    id: 18,
+    title: "Cranberry Orange Scones",
+    description: "Tart cranberries and bright orange zest make these scones a perfect morning treat.",
+    image: "https://images.unsplash.com/photo-1512058564366-c9e8e70c1da2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "40 mins",
+    difficulty: "Medium",
+    content: "These scones combine the tartness of cranberries with the zest of orange for a unique twist on a traditional treat. Enjoy them with a cup of tea or coffee.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1512058564366-c9e8e70c1da2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "2 cups all-purpose flour",
+      "1/3 cup granulated sugar",
+      "1 tablespoon baking powder",
+      "1/2 tsp salt",
+      "1/2 cup unsalted butter, cold and cubed",
+      "1/2 cup heavy cream",
+      "1 large egg",
+      "1 tsp vanilla extract",
+      "1 cup dried cranberries",
+      "Zest of 1 orange",
+      "2 tbsp orange juice"
+    ],
+    instructions: [
+      "Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.",
+      "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
+      "Cut in the cold butter until the mixture resembles coarse crumbs.",
+      "In another bowl, whisk together heavy cream, egg, vanilla, orange zest, and orange juice.",
+      "Combine the wet and dry ingredients until just mixed, then fold in dried cranberries.",
+      "Turn dough onto a floured surface and gently pat into a 1-inch thick circle.",
+      "Cut into 8 wedges and place them on the prepared baking sheet.",
+      "Bake for 18-22 minutes until golden brown.",
+      "Cool slightly before serving."
+    ]
+  },
+  {
+    id: 19,
+    title: "Banana Walnut Bread",
+    description: "A delicious twist on classic banana bread with crunchy walnuts.",
+    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "1 hour",
+    difficulty: "Easy",
+    content: "This banana walnut bread is a moist, flavorful twist on the classic. The walnuts add a delightful crunch and nutty flavor that pairs perfectly with ripe bananas.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "3 ripe bananas, mashed",
+      "1/3 cup melted butter",
+      "1 cup sugar",
+      "1 large egg, beaten",
+      "1 tsp vanilla extract",
+      "1 tsp baking soda",
+      "Pinch of salt",
+      "1 1/2 cups all-purpose flour",
+      "1/2 cup chopped walnuts"
+    ],
+    instructions: [
+      "Preheat your oven to 350°F (175°C) and grease a 4x8 inch loaf pan.",
+      "In a large bowl, mash the ripe bananas with a fork until smooth.",
+      "Stir in the melted butter, then mix in the sugar, egg, and vanilla.",
+      "Sprinkle baking soda and salt over the mixture and stir to combine.",
+      "Gently fold in the flour and chopped walnuts until just mixed.",
+      "Pour the batter into the prepared loaf pan and smooth the top.",
+      "Bake for 60-65 minutes or until a tester inserted into the center comes out clean.",
+      "Cool in the pan for 10 minutes before transferring to a wire rack to cool completely."
+    ]
+  },
+  {
+    id: 20,
+    title: "Double Chocolate Chip Muffins",
+    description: "Rich chocolate muffins loaded with chocolate chips for an extra indulgent treat.",
+    image: "https://images.unsplash.com/photo-1611078486816-4a2d33d7d8ed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "35 mins",
+    difficulty: "Medium",
+    content: "These double chocolate chip muffins are every chocolate lover's dream. Soft, moist, and bursting with chocolate chips, they’re perfect for breakfast or dessert.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1611078486816-4a2d33d7d8ed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "1 3/4 cups all-purpose flour",
+      "1/4 cup cocoa powder",
+      "1/2 cup sugar",
+      "1/2 tsp baking soda",
+      "1 tsp baking powder",
+      "1/2 tsp salt",
+      "3/4 cup milk",
+      "1/3 cup vegetable oil",
+      "1 large egg",
+      "1 tsp vanilla extract",
+      "1 cup chocolate chips",
+      "Optional: 1/4 cup cocoa nibs"
+    ],
+    instructions: [
+      "Preheat oven to 375°F (190°C) and line a muffin tin with paper liners.",
+      "In a large bowl, whisk together flour, cocoa powder, sugar, baking soda, baking powder, and salt.",
+      "In another bowl, mix milk, vegetable oil, egg, and vanilla extract.",
+      "Combine the wet ingredients with the dry ingredients until just mixed.",
+      "Fold in the chocolate chips (and cocoa nibs, if using).",
+      "Divide the batter evenly among the muffin cups.",
+      "Bake for 20-25 minutes until a toothpick inserted in the center comes out clean.",
+      "Let cool in the pan for 5 minutes before transferring to a wire rack."
+    ]
+  },
+  {
+    id: 21,
+    title: "Caramel Apple Crumble",
+    description: "Warm and comforting apple crumble drizzled with homemade caramel sauce.",
+    image: "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "1 hour",
+    difficulty: "Easy",
+    content: "This caramel apple crumble is a delightful mix of tart apples, sweet caramel, and a crunchy topping. Perfect for a cozy dessert on a cool day.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "6 cups apples, peeled and sliced",
+      "1/2 cup granulated sugar",
+      "1 tsp cinnamon",
+      "1/4 tsp nutmeg",
+      "1 cup all-purpose flour",
+      "1/2 cup rolled oats",
+      "1/2 cup brown sugar",
+      "1/2 cup unsalted butter, cold and cubed",
+      "For the caramel sauce:",
+      "1 cup sugar",
+      "1/2 cup heavy cream",
+      "4 tbsp unsalted butter"
+    ],
+    instructions: [
+      "Preheat oven to 375°F (190°C) and grease a 9x9 inch baking dish.",
+      "In a bowl, toss sliced apples with granulated sugar, cinnamon, and nutmeg.",
+      "Transfer the apples to the baking dish.",
+      "For the crumble topping, combine flour, oats, and brown sugar.",
+      "Cut in the cold butter until the mixture forms coarse crumbs.",
+      "Sprinkle the topping evenly over the apples.",
+      "Bake for 40-45 minutes until the apples are tender and the topping is golden.",
+      "Meanwhile, prepare the caramel sauce by melting sugar in a saucepan over medium heat until amber-colored, then stir in heavy cream and butter until smooth.",
+      "Drizzle the warm caramel sauce over the apple crumble before serving."
+    ]
+  },
+  {
+    id: 22,
+    title: "Coconut Cream Pie",
+    description: "A tropical delight featuring a flaky crust filled with creamy coconut custard and topped with whipped cream.",
+    image: "https://images.unsplash.com/photo-1572448862528-2c1d6905c3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "2 hours",
+    difficulty: "Medium",
+    content: "This coconut cream pie delivers a refreshing tropical taste. The silky coconut custard filling is perfectly balanced by a crisp, flaky crust and fresh whipped cream topping.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1572448862528-2c1d6905c3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "For the crust:",
+      "1 1/2 cups graham cracker crumbs",
+      "1/3 cup melted butter",
+      "1/4 cup sugar",
+      "For the filling:",
+      "2 cups coconut milk",
+      "1/2 cup sugar",
+      "1/4 cup cornstarch",
+      "4 egg yolks",
+      "1 cup shredded coconut",
+      "1 tsp vanilla extract",
+      "For the topping:",
+      "1 cup heavy cream",
+      "2 tbsp powdered sugar",
+      "Optional: 1/2 tsp coconut extract"
+    ],
+    instructions: [
+      "Preheat oven to 350°F (175°C). Combine graham cracker crumbs, melted butter, and sugar; press into a pie dish to form a crust.",
+      "Bake the crust for 10 minutes and let cool.",
+      "In a saucepan, whisk together coconut milk, sugar, cornstarch, and egg yolks over medium heat until thickened.",
+      "Stir in shredded coconut and vanilla extract.",
+      "Pour the custard into the cooled crust and smooth the top.",
+      "Chill in the refrigerator for at least 2 hours.",
+      "Whip the heavy cream with powdered sugar (and coconut extract, if using) until stiff peaks form, then spread over the pie before serving."
+    ]
+  },
+  {
+    id: 23,
+    title: "Vanilla Bean Panna Cotta",
+    description: "An elegant Italian dessert featuring a silky smooth panna cotta with a hint of vanilla bean.",
+    image: "https://images.unsplash.com/photo-1589308078050-27b3e8c1a122?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "4 hours (includes chilling time)",
+    difficulty: "Medium",
+    content: "This classic vanilla bean panna cotta is a luxurious and simple dessert. Its creamy texture and delicate vanilla flavor make it an excellent end to any meal.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1589308078050-27b3e8c1a122?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "2 cups heavy cream",
+      "1 cup whole milk",
+      "1/2 cup sugar",
+      "1 vanilla bean, split and scraped",
+      "2 1/2 teaspoons gelatin powder",
+      "3 tablespoons cold water"
+    ],
+    instructions: [
+      "In a small bowl, sprinkle gelatin over cold water and let stand for 5 minutes.",
+      "In a saucepan, combine heavy cream, milk, sugar, and vanilla bean seeds (and pod). Heat until sugar dissolves; do not boil.",
+      "Remove from heat and discard the vanilla pod.",
+      "Stir in the gelatin mixture until fully dissolved.",
+      "Pour the mixture into ramekins or serving glasses.",
+      "Refrigerate for at least 4 hours until set.",
+      "Serve chilled, optionally garnished with fresh berries or mint."
+    ]
+  },
+  {
+    id: 24,
+    title: "Espresso Tiramisu",
+    description: "A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+    image: "https://images.unsplash.com/photo-1605622473483-4cf548eab3b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "4 hours (plus chilling time)",
+    difficulty: "Hard",
+    content: "This espresso tiramisu is a decadent dessert that brings together the rich flavors of coffee and creamy mascarpone. Perfect for special occasions and coffee lovers.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1605622473483-4cf548eab3b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "6 egg yolks",
+      "3/4 cup sugar",
+      "1 cup mascarpone cheese",
+      "1 1/2 cups heavy cream",
+      "2 cups strong brewed espresso, cooled",
+      "2 tablespoons coffee liqueur (optional)",
+      "1 package ladyfingers",
+      "Cocoa powder for dusting"
+    ],
+    instructions: [
+      "In a bowl, whisk egg yolks with sugar until pale and creamy.",
+      "Mix in the mascarpone cheese until smooth.",
+      "In a separate bowl, whip the heavy cream until stiff peaks form, then fold into the mascarpone mixture.",
+      "Combine cooled espresso and coffee liqueur (if using) in a shallow dish.",
+      "Dip each ladyfinger briefly into the espresso mixture and layer in a serving dish.",
+      "Spread a layer of the mascarpone cream over the ladyfingers.",
+      "Repeat layers until all ingredients are used, finishing with a cream layer.",
+      "Dust the top with cocoa powder and refrigerate for at least 4 hours before serving."
+    ]
+  },
+  {
+    id: 25,
+    title: "Key Lime Pie",
+    description: "A tangy and refreshing dessert with a buttery graham cracker crust and zesty lime filling.",
+    image: "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    prepTime: "1.5 hours (plus chilling time)",
+    difficulty: "Medium",
+    content: "This key lime pie is a perfect balance of tart and sweet, with a smooth, creamy filling nestled in a crisp graham cracker crust. A slice of refreshing indulgence.",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    ingredients: [
+      "For the crust:",
+      "1 1/2 cups graham cracker crumbs",
+      "1/3 cup melted butter",
+      "1/4 cup sugar",
+      "For the filling:",
+      "3 cups sweetened condensed milk",
+      "1/2 cup key lime juice",
+      "Zest of 2 limes",
+      "For the topping:",
+      "1 cup heavy cream",
+      "2 tbsp powdered sugar"
+    ],
+    instructions: [
+      "Preheat oven to 350°F (175°C). Mix graham cracker crumbs, melted butter, and sugar, then press into a 9-inch pie dish to form the crust.",
+      "Bake the crust for 10 minutes and let cool.",
+      "In a bowl, whisk together sweetened condensed milk, key lime juice, and lime zest until smooth.",
+      "Pour the filling into the cooled crust and smooth the top.",
+      "Refrigerate the pie for at least 2 hours until set.",
+      "In a separate bowl, whip heavy cream with powdered sugar until soft peaks form, then spread over the pie before serving."
     ]
   }
 ];
