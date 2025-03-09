@@ -392,5 +392,42 @@ export const recipes: Recipe[] = [
       "Reduce temperature to 450°F (230°C), remove lid, and bake for another 20-25 minutes until deeply golden.",
       "Cool completely on a wire rack for at least 2 hours before slicing."
     ]
-  }
+  },
+  {
+  "id": 11,
+  "title": "Red Velvet Cake",
+  "description": "Layered crimson cake with cream cheese frosting and crunchy pecans.",
+  "image": "https://t3.ftcdn.net/jpg/02/64/84/68/360_F_264846889_3FTwwhQItDUy95Wdeaf8Qg4YLiiLNvrG.jpg",
+  "prepTime": "1.5 hours",
+  "difficulty": "Medium",
+  "content": "This iconic Southern cake gets its signature red color from cocoa powder reacting with acidic ingredients. The smooth cream cheese frosting provides the perfect tangy contrast to the mildly chocolatey layers.",
+  "galleryImages": [
+    "https://t3.ftcdn.net/jpg/02/64/84/68/360_F_264846889_3FTwwhQItDUy95Wdeaf8Qg4YLiiLNvrG.jpg",
+    "https://plus.unsplash.com/premium_photo-1713920189815-876dbdf5f56e?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1543287920-26349b5b1376?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  ],
+  "ingredients": [
+    "2 1/2 cups cake flour",
+    "1 1/2 cups sugar",
+    "1 teaspoon baking soda",
+    "1 teaspoon cocoa powder",
+    "1 teaspoon salt",
+    "2 large eggs, at room temperature",
+    "1 1/2 cups vegetable oil",
+    "1 cup buttermilk, at room temperature",
+    "2 tablespoons red food coloring",
+    "1 teaspoon white vinegar",
+    "1 teaspoon vanilla extract"
+  ],
+  "instructions": [
+    "Preheat your oven to 350°F (175°C). Grease and flour three 9-inch cake pans, then line the bottoms with parchment paper to ensure easy release.",
+    "In a large bowl, sift together the cake flour, sugar, cocoa powder, baking soda, and salt. This ensures even distribution and a smoother batter.",
+    "In a separate bowl, whisk together the eggs, vegetable oil, buttermilk, red food coloring, vanilla extract, and white vinegar until well combined.",
+    "Gradually add the dry ingredients to the wet ingredients, mixing on medium speed until the batter is smooth and fully incorporated. Be careful not to overmix, as this can lead to a denser cake.",
+    "Evenly distribute the batter among the three prepared cake pans, smoothing the tops to ensure even baking.",
+    "Place the pans in the preheated oven and bake for 25-30 minutes, or until a toothpick inserted into the center comes out clean.",
+    "Once baked, remove the cakes from the oven and let them cool in the pans for about 10 minutes. Then, transfer them to wire racks to cool completely before applying the cream cheese frosting."
+  ]
+}
+
 ];
