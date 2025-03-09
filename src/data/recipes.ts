@@ -544,14 +544,14 @@ export const recipes: Recipe[] = [
     id: 15,
     title: "Nutella Stuffed Brownies",
     description: "Rich, fudgy brownies with a gooey Nutella center that will delight any chocolate lover.",
-    image: "https://images.unsplash.com/photo-1604908177527-17d5fcd27cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://photos.bigoven.com/recipe/hero/nutella-marshmallow-stuffed-br-9be9d9.jpg",
     prepTime: "45 mins",
     difficulty: "Medium",
     content: "These indulgent Nutella stuffed brownies combine a dense, chocolatey base with a surprise molten center of Nutella. Perfect for those who crave an extra decadent chocolate treat.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1604908177527-17d5fcd27cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1587054117969-1e7d2a9b3f03?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1592928303521-1c5f44a6bff9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://photos.bigoven.com/recipe/hero/nutella-marshmallow-stuffed-br-9be9d9.jpg",
+      "https://fitwafflekitchen.com/wp-content/uploads/2021/10/Kinder-and-Nutella-stuffed-brownies-resize-500x500.jpg",
+      "https://sallysbakingaddiction.com/wp-content/uploads/2016/04/easy-nutella-brownies-2-1.jpg"
     ],
     ingredients: [
       "1/2 cup unsalted butter",
