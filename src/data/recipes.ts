@@ -363,7 +363,7 @@ export const recipes: Recipe[] = [
     difficulty: "Expert",
     content: "Sourdough bread is as much art as it is science. This recipe uses a mature sourdough starter to create a loaf with exceptional flavor, a crackling crust, and that distinctive open, chewy crumb. While it takes time, most of it is hands-off as the dough slowly ferments. The process is deeply satisfying, and the result is a bread that's leagues beyond anything you can buy at a supermarket.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1591458736923-c06a260e3412?q=80&w=1000",
       "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1540916329799-e95bee36635f?q=80&w=1000"
     ],
@@ -430,14 +430,14 @@ export const recipes: Recipe[] = [
     id: 12,
     title: "Classic Carrot Cake",
     description: "Moist and spiced carrot cake layered with rich cream cheese frosting.",
-    image: "https://images.unsplash.com/photo-1611095564983-13cf3a7e5b86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://www.onceuponachef.com/images/2024/03/carrot-cake.jpg",
     prepTime: "1.5 hours",
     difficulty: "Medium",
     content: "This classic carrot cake is full of warm spices and tender carrots, complemented by a tangy cream cheese frosting. It's perfect for celebrations or a comforting dessert.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1611095564983-13cf3a7e5b86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1611095558982-213cf3a7e5b87?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1611095561234-13cf3a7e5b88?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.onceuponachef.com/images/2024/03/carrot-cake.jpg",
+      "https://www.lifeloveandsugar.com/wp-content/uploads/2023/08/Carrot-Cake4.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHP7QTbZvSSVymLYyNFvpaDYv-EObRqTNlsbu7rxQe2nLz3QRy0sUAVzUVUe-691MWuhE&usqp=CAU"
     ],
     ingredients: [
       "2 cups all-purpose flour",
@@ -471,14 +471,14 @@ export const recipes: Recipe[] = [
     id: 13,
     title: "Homestyle Banana Bread",
     description: "Moist, flavorful banana bread perfect for a quick snack or breakfast treat.",
-    image: "https://images.unsplash.com/photo-1604147706283-0b4d78f2d5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://www.wyseguide.com/wp-content/uploads/2023/01/Grandmas-Classic-Banana-Bread-7.jpg",
     prepTime: "1 hour",
     difficulty: "Easy",
     content: "A comforting and easy-to-make banana bread bursting with ripe bananas and a hint of cinnamon. It’s a great way to use overripe bananas for a delicious treat any time of day.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1604147706283-0b4d78f2d5b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.wyseguide.com/wp-content/uploads/2023/01/Grandmas-Classic-Banana-Bread-7.jpg",
+      "https://www.wyseguide.com/wp-content/uploads/2023/01/Grandmas-Classic-Banana-Bread-19.jpg",
+      "https://www.wyseguide.com/wp-content/uploads/2023/01/Grandmas-Classic-Banana-Bread-Ingredients.jpg"
     ],
     ingredients: [
       "2-3 ripe bananas, mashed",
@@ -505,14 +505,14 @@ export const recipes: Recipe[] = [
     id: 14,
     title: "Southern Peach Cobbler",
     description: "Sweet and juicy peaches topped with a tender, biscuit-like crust.",
-    image: "https://images.unsplash.com/photo-1598801113880-6f4e619b144f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://southernfoodandfun.com/wp-content/uploads/2024/05/southern-peach-cobbler-2024-feature-1-500x500.jpg",
     prepTime: "1 hour",
     difficulty: "Medium",
     content: "This southern peach cobbler features fresh peaches in a spiced syrup, topped with a light, buttery crust. Serve warm with a scoop of vanilla ice cream for extra indulgence.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1598801113880-6f4e619b144f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1565895405132-2b01eb1b02c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1571182622512-86860e9b8b8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://southernfoodandfun.com/wp-content/uploads/2024/05/southern-peach-cobbler-2024-feature-1-500x500.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKiGFN-A0dfNwQmCDaDKY5xCgENvvitIMQyP3wJMjjWAShYwFXLd1BW-soDslCTgI1eg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHkALqW7_OAyJwg_lxLidIT4R-k-VCNAb21UR2VkM8nO14K3du4j63BAYD_boPIgG4aTA&usqp=CAU"
     ],
     ingredients: [
       "6-8 fresh peaches, peeled, pitted, and sliced",
