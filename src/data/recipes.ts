@@ -45,8 +45,8 @@ export const recipes: Recipe[] = [
     content: "The perfect chocolate chunk cookie should be crispy on the outside, chewy in the middle, and loaded with melty chocolate chunks. This recipe delivers exactly that! The secret is using brown sugar for chewiness, chilling the dough before baking, and using high-quality chocolate chunks instead of chips.",
     galleryImages: [
       "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1583743089695-4b816a340f0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1618923050939-c669a3602b4d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1673551490160-3f2e712b9373?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1670895802345-f46a6250749c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     ingredients: [
       "2 1/4 cups all-purpose flour",
@@ -75,14 +75,12 @@ export const recipes: Recipe[] = [
     id: 3,
     title: "Lemon Blueberry Scones",
     description: "Tender scones bursting with fresh blueberries and zesty lemon flavor, perfect for breakfast or brunch.",
-    image: "https://images.unsplash.com/photo-1523942839364-61d969c67316?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1541491008689-b5d3c6615e2e?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     prepTime: "35 mins",
     difficulty: "Medium",
     content: "These lemon blueberry scones are bright, buttery, and bursting with flavor. The secret to their perfect texture is keeping the butter cold and not overworking the dough. Fresh blueberries work best, but frozen will do in a pinch - just don't thaw them before using!",
     galleryImages: [
-      "https://images.unsplash.com/photo-1523942839364-61d969c67316?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1578847929792-d65b7ccdcbfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1541491008689-b5d3c6615e2e?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     ingredients: [
       "2 cups all-purpose flour",
