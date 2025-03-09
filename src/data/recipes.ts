@@ -118,7 +118,7 @@ export const recipes: Recipe[] = [
     galleryImages: [
       "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1585478259715-1c093a7b70d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1649308401368-a68b77116605?q=80&w=1000"
     ],
     ingredients: [
       "3 1/2 cups all-purpose flour",
