@@ -39,7 +39,6 @@ const Footer = () => {
               <Heart className="h-4 w-4 text-primary fill-primary" />
               <span>and good ingredients</span>
             </div>
-            <p className="text-sm text-gray-500">This project is maintained by wackdawg</p>
           </div>
         </div>
       </div>
