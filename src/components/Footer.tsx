@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, Instagram, Twitter, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { Heart, Github, Globe } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -14,27 +14,21 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-3 mb-4 md:mb-0 md:order-3">
-            <Button variant="ghost" size="icon" aria-label="Instagram" className="rounded-full hover:bg-baking-pink">
-              <Instagram className="h-5 w-5 text-gray-600" />
+            <Button variant="ghost" size="icon" aria-label="GitHub" className="rounded-full hover:bg-baking-pink">
+              <Github className="h-5 w-5 text-gray-600" />
             </Button>
-            <Button variant="ghost" size="icon" aria-label="Twitter" className="rounded-full hover:bg-baking-blue">
-              <Twitter className="h-5 w-5 text-gray-600" />
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="Facebook" className="rounded-full hover:bg-baking-yellow">
-              <Facebook className="h-5 w-5 text-gray-600" />
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="LinkedIn" className="rounded-full hover:bg-baking-purple">
-              <Linkedin className="h-5 w-5 text-gray-600" />
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="YouTube" className="rounded-full hover:bg-baking-orange">
-              <Youtube className="h-5 w-5 text-gray-600" />
+            <Button variant="ghost" size="icon" aria-label="Website" className="rounded-full hover:bg-baking-blue">
+              <Globe className="h-5 w-5 text-gray-600" />
             </Button>
           </div>
           
-          <div className="flex items-center gap-1 text-gray-600 md:order-2">
-            <span>Made with</span>
-            <Heart className="h-4 w-4 text-primary fill-primary" />
-            <span>and good ingredients</span>
+          <div className="flex flex-col items-center md:items-end gap-1 text-gray-600 md:order-2">
+            <div className="flex items-center gap-1">
+              <span>Made with</span>
+              <Heart className="h-4 w-4 text-primary fill-primary" />
+              <span>and good ingredients</span>
+            </div>
+            <p className="text-sm text-gray-500">This project is maintained by wackdawg</p>
           </div>
         </div>
       </div>
