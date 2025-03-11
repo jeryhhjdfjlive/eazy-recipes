@@ -14,10 +14,21 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-3 mb-4 md:mb-0 md:order-3">
-            <Button variant="ghost" size="icon" aria-label="GitHub" className="rounded-full hover:bg-baking-pink">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              aria-label="GitHub" 
+              className="rounded-full hover:bg-baking-pink"
+              onClick={() => window.open('https://github.com/wackydawg', '_blank')}
+            >
               <Github className="h-5 w-5 text-gray-600" />
             </Button>
-            <Button variant="ghost" size="icon" aria-label="Website" className="rounded-full hover:bg-baking-blue">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              aria-label="Website" 
+              className="rounded-full hover:bg-baking-blue"
+            >
               <Globe className="h-5 w-5 text-gray-600" />
             </Button>
           </div>
