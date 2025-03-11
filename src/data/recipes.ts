@@ -2,7 +2,7 @@ import { Recipe } from "@/components/RecipeCard";
 
 export const recipes: Recipe[] = [
   {
-    id: 1,
+    id: "classic-vanilla-cupcakes",
     title: "Classic Vanilla Cupcakes",
     description: "Light and fluffy vanilla cupcakes topped with creamy buttercream frosting and colorful sprinkles.",
     image: "https://images.unsplash.com/photo-1519869325930-281384150729?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
