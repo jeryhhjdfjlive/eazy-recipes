@@ -12,21 +12,16 @@ const Index = () => {
       
       <main className="container mx-auto px-4 py-8">
         <div className="relative mb-12 rounded-xl overflow-hidden shadow-xl">
-          {/* Video background */}
-          <div className="w-full h-80 relative">
-            <video 
+          {/* Image background */}
+          <div className="w-full h-96 md:h-[500px] relative">
+            <img 
               className="absolute inset-0 w-full h-full object-cover"
-              autoPlay 
-              muted 
-              loop 
-              playsInline
-            >
-              <source src="https://cdn.pixabay.com/vimeo/149040583/baking-2098.mp4?width=1280&hash=4e9f27ca9ab97c410d485e9c96a9e85df0de96be" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+              src="https://png.pngtree.com/thumb_back/fh260/background/20241213/pngtree-colorful-donuts-with-sprinkles-on-a-pastel-background-appealing-for-dessert-image_16783699.jpg" 
+              alt="Colorful donuts with sprinkles on pastel background"
+            />
             
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-30"></div>
             
             {/* Content overlay */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10">
