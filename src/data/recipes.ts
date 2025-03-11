@@ -1,3 +1,4 @@
+
 import { Recipe } from "@/components/RecipeCard";
 
 // Helper function to create URL-friendly slugs from titles
@@ -410,3 +411,5 @@ export const recipes: Recipe[] = [
       "Reduce temperature to 450°F (230°C), remove lid, and bake for another 20-25 minutes until deeply golden.",
       "Cool completely on a wire rack for at least 2 hours before slicing."
     ]
+  }
+];
