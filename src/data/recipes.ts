@@ -616,14 +616,13 @@ export const recipes: Recipe[] = [
     id: 17,
     title: "Pumpkin Spice Cookies",
     description: "Soft and chewy cookies with the warm flavors of pumpkin and spices.",
-    image: "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://www.justsotasty.com/wp-content/uploads/2016/09/Pumpkin-Cookies-5.jpg",
     prepTime: "35 mins",
     difficulty: "Medium",
     content: "These pumpkin spice cookies combine the classic flavors of fall into a soft, chewy treat. Perfect for autumn gatherings or a cozy snack.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1600436757349-c5b9cb3b4d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1571091718767-8d2b5d04c1c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.justsotasty.com/wp-content/uploads/2016/09/Pumpkin-Cookies-5.jpg",
+      "https://www.justsotasty.com/wp-content/uploads/2016/09/Pumpkin-Spice-Cookies.jpg",
     ],
     ingredients: [
       "1 1/2 cups all-purpose flour",
@@ -652,14 +651,13 @@ export const recipes: Recipe[] = [
     id: 18,
     title: "Cranberry Orange Scones",
     description: "Tart cranberries and bright orange zest make these scones a perfect morning treat.",
-    image: "https://images.unsplash.com/photo-1512058564366-c9e8e70c1da2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://sallysbakingaddiction.com/wp-content/uploads/2015/11/cranberry-orange-scones-3.jpg",
     prepTime: "40 mins",
     difficulty: "Medium",
     content: "These scones combine the tartness of cranberries with the zest of orange for a unique twist on a traditional treat. Enjoy them with a cup of tea or coffee.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1512058564366-c9e8e70c1da2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://sallysbakingaddiction.com/wp-content/uploads/2015/11/cranberry-orange-scones-3.jpg",
+      "https://sallysbakingaddiction.com/wp-content/uploads/2015/11/cranberry-orange-scones-2.jpg",
     ],
     ingredients: [
       "2 cups all-purpose flour",
@@ -690,14 +688,14 @@ export const recipes: Recipe[] = [
     id: 19,
     title: "Banana Walnut Bread",
     description: "A delicious twist on classic banana bread with crunchy walnuts.",
-    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.immediate.co.uk/production/volatile/sites/2/2021/05/BananaWalnutLoafCake-b80daa2.jpg?quality=90&webp=true&resize=600,545",
     prepTime: "1 hour",
     difficulty: "Easy",
     content: "This banana walnut bread is a moist, flavorful twist on the classic. The walnuts add a delightful crunch and nutty flavor that pairs perfectly with ripe bananas.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://images.immediate.co.uk/production/volatile/sites/2/2021/05/BananaWalnutLoafCake-b80daa2.jpg?quality=90&webp=true&resize=600,545",
+      "https://melaniemakes.com/images/2014/10/chocolate-chip-walnut-banana-bread-9.jpg",
+      "https://melaniemakes.com/images/2014/10/chocolate-chip-walnut-banana-bread-5-1.jpg"
     ],
     ingredients: [
       "3 ripe bananas, mashed",
@@ -725,14 +723,14 @@ export const recipes: Recipe[] = [
     id: 20,
     title: "Double Chocolate Chip Muffins",
     description: "Rich chocolate muffins loaded with chocolate chips for an extra indulgent treat.",
-    image: "https://images.unsplash.com/photo-1611078486816-4a2d33d7d8ed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://www.piesandtacos.com/wp-content/uploads/2023/02/double-chocolate-muffins-3-1365x2048.jpg",
     prepTime: "35 mins",
     difficulty: "Medium",
     content: "These double chocolate chip muffins are every chocolate lover's dream. Soft, moist, and bursting with chocolate chips, they’re perfect for breakfast or dessert.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1611078486816-4a2d33d7d8ed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1599785209707-daa7c27d9d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.piesandtacos.com/wp-content/uploads/2023/02/double-chocolate-muffins-3-1365x2048.jpg",
+      "https://www.piesandtacos.com/wp-content/uploads/2023/02/double-chocolate-muffins-2-1365x2048.jpg",
+      "https://www.piesandtacos.com/wp-content/uploads/2023/02/Untitled-1200-x-1800-px-1200-x-1800-px-41.png"
     ],
     ingredients: [
       "1 3/4 cups all-purpose flour",
@@ -763,14 +761,14 @@ export const recipes: Recipe[] = [
     id: 21,
     title: "Caramel Apple Crumble",
     description: "Warm and comforting apple crumble drizzled with homemade caramel sauce.",
-    image: "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://img.taste.com.au/5U_OnQvL/w720-h480-cfill-q80/taste/2016/11/salted-caramel-apple-crumble-88495-1.jpeg",
     prepTime: "1 hour",
     difficulty: "Easy",
     content: "This caramel apple crumble is a delightful mix of tart apples, sweet caramel, and a crunchy topping. Perfect for a cozy dessert on a cool day.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1562440499-64c2e39f1587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://img.taste.com.au/5U_OnQvL/w720-h480-cfill-q80/taste/2016/11/salted-caramel-apple-crumble-88495-1.jpeg",
+      "https://www.closetcooking.com/wp-content/uploads/2015/12/CaramelAppleCrumbleCheesecakeDip8007963.jpg",
+      "https://www.closetcooking.com/wp-content/uploads/2015/12/CaramelAppleCrumbleCheesecakeDip8007981.jpg"
     ],
     ingredients: [
       "6 cups apples, peeled and sliced",
@@ -802,13 +800,13 @@ export const recipes: Recipe[] = [
     id: 22,
     title: "Coconut Cream Pie",
     description: "A tropical delight featuring a flaky crust filled with creamy coconut custard and topped with whipped cream.",
-    image: "https://images.unsplash.com/photo-1572448862528-2c1d6905c3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://www.persnicketyplates.com/wp-content/uploads/2012/06/coconut-cream-pie33-SQUARE.jpg",
     prepTime: "2 hours",
     difficulty: "Medium",
     content: "This coconut cream pie delivers a refreshing tropical taste. The silky coconut custard filling is perfectly balanced by a crisp, flaky crust and fresh whipped cream topping.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1572448862528-2c1d6905c3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.persnicketyplates.com/wp-content/uploads/2012/06/coconut-cream-pie33-SQUARE.jpg",
+      "https://www.persnicketyplates.com/wp-content/uploads/2012/06/coconut-cream-pie40.jpg"
     ],
     ingredients: [
       "For the crust:",
@@ -841,13 +839,13 @@ export const recipes: Recipe[] = [
     id: 23,
     title: "Vanilla Bean Panna Cotta",
     description: "An elegant Italian dessert featuring a silky smooth panna cotta with a hint of vanilla bean.",
-    image: "https://images.unsplash.com/photo-1589308078050-27b3e8c1a122?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://img.taste.com.au/56o1su3F/w720-h480-cfill-q80/taste/2016/11/vanilla-bean-panna-cotta-104789-1.jpeg",
     prepTime: "4 hours (includes chilling time)",
     difficulty: "Medium",
     content: "This classic vanilla bean panna cotta is a luxurious and simple dessert. Its creamy texture and delicate vanilla flavor make it an excellent end to any meal.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1589308078050-27b3e8c1a122?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://img.taste.com.au/56o1su3F/w720-h480-cfill-q80/taste/2016/11/vanilla-bean-panna-cotta-104789-1.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5cfa79cfbb285600015a6287/1596067096962-FK1WN9ETRDTWV6VNXVHC/wild+berry+panna+cotta+1.jpg?format=2500w"
     ],
     ingredients: [
       "2 cups heavy cream",
@@ -871,13 +869,13 @@ export const recipes: Recipe[] = [
     id: 24,
     title: "Espresso Tiramisu",
     description: "A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
-    image: "https://images.unsplash.com/photo-1605622473483-4cf548eab3b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://bakedbrewedbeautiful.com/wp-content/uploads/2021/03/DSC0432-1536x1027.jpg",
     prepTime: "4 hours (plus chilling time)",
     difficulty: "Hard",
     content: "This espresso tiramisu is a decadent dessert that brings together the rich flavors of coffee and creamy mascarpone. Perfect for special occasions and coffee lovers.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1605622473483-4cf548eab3b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://bakedbrewedbeautiful.com/wp-content/uploads/2021/03/DSC0432-1536x1027.jpg",
+      "https://i.imgur.com/oweC1gg.jpg"
     ],
     ingredients: [
       "6 egg yolks",
@@ -904,13 +902,14 @@ export const recipes: Recipe[] = [
     id: 25,
     title: "Key Lime Pie",
     description: "A tangy and refreshing dessert with a buttery graham cracker crust and zesty lime filling.",
-    image: "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://www.allrecipes.com/thmb/HQF1EDpzay2G-ksxdNNdSGWcZa8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/12698-Easy-Key-Lime-Pie-ddmfs-103444-4x3-1-eb1a59500e384b2b8939094ce18d08be.jpg",
     prepTime: "1.5 hours (plus chilling time)",
     difficulty: "Medium",
     content: "This key lime pie is a perfect balance of tart and sweet, with a smooth, creamy filling nestled in a crisp graham cracker crust. A slice of refreshing indulgence.",
     galleryImages: [
-      "https://images.unsplash.com/photo-1598511722342-cb6e07b6b60e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1576402187871-2ffb1e0a6a7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.allrecipes.com/thmb/HQF1EDpzay2G-ksxdNNdSGWcZa8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/12698-Easy-Key-Lime-Pie-ddmfs-103444-4x3-1-eb1a59500e384b2b8939094ce18d08be.jpg",
+      "https://www.allrecipes.com/thmb/VS_uOAJ9iWAls7lXszNbURAiHlc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/12698-EasyKeyLimePie-ddmfs-step4-103424-4x3-8dc83a3c7c4846228c951415af927b2c.jpg",
+      "https://www.allrecipes.com/thmb/s0DjcvH3Z7MRPoEQcJ5t-AWyVVE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/12698-EasyKeyLimePie-ddmfs-Step3-4x3.5168-5abb7456c2e64b7ea78ee4fd423b9b1a.jpg"
     ],
     ingredients: [
       "For the crust:",
