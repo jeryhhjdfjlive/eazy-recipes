@@ -9,10 +9,10 @@ import { Clock, Utensils, ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const RecipeDetail = () => {
-  const { id } = useParams<{ id: string }>();
+  const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   
-  const recipe = recipes.find(r => r.id === Number(id));
+  const recipe = recipes.find(r => r.slug === slug);
   
   useEffect(() => {
     if (!recipe) {

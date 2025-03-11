@@ -5,7 +5,8 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Clock, Utensils } from 'lucide-react';
 
 export interface Recipe {
-  id: number;
+  id: number | string;
+  slug: string;
   title: string;
   description: string;
   image: string;
@@ -23,7 +24,7 @@ interface RecipeCardProps {
 
 const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
   return (
-    <Link to={`/recipe/${recipe.id}`} className="block transform hover:-translate-y-1 transition-all duration-300">
+    <Link to={`/recipe/${recipe.slug}`} className="block transform hover:-translate-y-1 transition-all duration-300">
       <Card className="h-full overflow-hidden border-2 hover:border-primary hover:shadow-md">
         <div className="h-48 overflow-hidden">
           <img 
