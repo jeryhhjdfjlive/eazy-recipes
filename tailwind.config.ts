@@ -77,6 +77,10 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			textShadow: {
+				sm: '0 1px 2px rgba(0, 0, 0, 0.4)',
+				lg: '0 2px 4px rgba(0, 0, 0, 0.6)',
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
@@ -109,5 +113,21 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		function ({ addUtilities }) {
+			const newUtilities = {
+				'.text-shadow-sm': {
+					textShadow: '0 1px 2px rgba(0, 0, 0, 0.4)',
+				},
+				'.text-shadow': {
+					textShadow: '0 2px 4px rgba(0, 0, 0, 0.4)',
+				},
+				'.text-shadow-lg': {
+					textShadow: '0 4px 8px rgba(0, 0, 0, 0.6)',
+				},
+			}
+			addUtilities(newUtilities)
+		}
+	],
 } satisfies Config;

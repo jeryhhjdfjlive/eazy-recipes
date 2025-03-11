@@ -11,6 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-primary text-lg">eazyrecipes</h3>
             <p className="text-gray-600 text-sm">Simple cooking for everyone since 2024</p>
+            <p className="text-gray-500 text-xs mt-1">This project is maintained by wackydawg</p>
           </div>
           
           <div className="flex gap-3 mb-4 md:mb-0 md:order-3">
