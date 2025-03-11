@@ -74,8 +74,7 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">Join Our Cooking Community</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  We love seeing what you create with our recipes! Feel free to connect with us on social media 
-                  and share your cooking triumphs (and even the occasional mishap - we've all been there!).
+                  We love seeing what you create with our recipes! 🍽️✨ Feel free to connect with us on social media and share your cooking triumphs (and even the occasional mishap - we've all been there! 😅). Or send us an email at julianlouis590@gmail.com 📧 to review your recipe and publish it on our site. 🌟
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
                   Thank you for stopping by eazyrecipes. Happy cooking!
